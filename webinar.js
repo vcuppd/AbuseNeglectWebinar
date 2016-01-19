@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$('#save').click(function(e)){
+	$('#save').click(function(e){
 		$.ajax({
 			type: "POST",
 			url: "register02.php",
