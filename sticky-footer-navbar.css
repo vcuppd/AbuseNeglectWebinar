@@ -17,6 +17,16 @@ body {
   background-color: #f5f5f5;
 }
 
+@media(max-width:767px){{ 
+    .footer {
+    position: auto !important;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+  }
+}
+
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -37,3 +47,5 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+

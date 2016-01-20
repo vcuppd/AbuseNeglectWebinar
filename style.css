@@ -1,3 +1,37 @@
+body{
+	background-color: #e7e7;
+}
+
+.navbar{
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand{
+	color: #000;
+	font-size: 18px;
+}
+
+.navbar-brand {
+	font-size: 20px;
+}
+
+.navbar-brand a:hover {
+	color: #fff;
+}
+
+/*@media(max-width:768px){
+   
+}*/
+
+#content{
+	margin-bottom: 20px;
+}
+
+.sessionHome{
+    padding: 0 35px 0px 35px;
+}
+
 .form-control{
     margin: 0 15px 20px 0px;
     padding: 20px;
@@ -26,3 +60,24 @@
 option{
 	font-size: 16px;
 }
+
+footer{
+	position: auto !important;
+	background-color: #e7e7e7;
+    color: #000;
+    font-size: 16px;
+    padding: 30px 30px 150px 30px;
+}
+
+footer .navbar-default{
+	background-color: #e7e7e7; 
+}
+
+footer .navbar .navbar-default .container{
+	height: 100%;
+}
+
+footer a{
+	color: #000;
+}
+
