@@ -4,7 +4,7 @@
 var quizJSON = {
     "info": {
         "name":    "Session 2 Quiz",
-        "main":    "<p>The quiz will consist of ten (10) multiple choice and true/false questions.</p><br>",
+        "main":    "<p>The quiz will consist of six (6) multiple choice and  four (4) true/false questions.</p><br>",
         // "results": [
         //             "pass": "<p>Congratulations! You have passed the Session 1 quiz. Please complete the session evaluation to receive your completion certificate. <a class='btn btn-default' href='' role='button'>Session Evaluation</a></p>",
         //             "fail": "<p>I'm sorry but a score of 8 to 10 is needed to successfully pass this quiz. Please retake the quiz until a passing score is acheived.<a class='btn btn-default' href='session01uiz.html' role='button'>Session 1 Quiz</a></p>",

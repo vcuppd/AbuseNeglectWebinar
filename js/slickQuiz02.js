@@ -601,8 +601,8 @@
 
 
                 //The script specifically made for the Abuse Neglect Webinar App//
-                var passHTML = $('<br><p>Congratulations! You have passed the Session 2 quiz. Please complete the session evaluation to receive your completion certificate.<br><br><a class="btn btn-default btn-lg" href="evaluation.html" role="button">Session Evaluation</a></p>');
-                var failHTML = $('<br><p>I am sorry but a score of 8 to 10 is needed to successfully pass this quiz. Please retake the quiz until a passing score is acheived.<br><br><a class="btn btn-default btn-lg" href="session02quiz.html" role="button">Session 1 Quiz</a></p>');              
+                var passHTML = $('<br><p>Congratulations! You have passed the Session 2 quiz. Please complete the session evaluation to receive your completion certificate.<br><br><a class="btn btn-warning btn-lg" href="evaluation.html" role="button">Session Evaluation</a></p>');
+                var failHTML = $('<br><p>I am sorry but a score of 8 to 10 is needed to successfully pass this quiz. Please retake the quiz until a passing score is acheived.<br><br><a class="btn btn-warning btn-lg" href="session02quiz.html" role="button">Session 1 Quiz</a></p>');              
 
                 if (score >= 8){
                     passHTML.appendTo($('.quizPass'));
