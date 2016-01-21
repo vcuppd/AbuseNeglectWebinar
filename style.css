@@ -25,8 +25,13 @@ body{
 }*/
 
 #content{
-	margin-bottom: 20px;
+	margin-bottom: 95px;
 }
+
+#slickQuiz{
+	margin-bottom: 430px;
+}
+
 
 .sessionHome{
     padding: 0 35px 0px 35px;
@@ -59,6 +64,10 @@ body{
 
 option{
 	font-size: 16px;
+}
+
+.sessionImg {
+	padding: 10px;
 }
 
 footer{
