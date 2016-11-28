@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/background03.png");
+	background-image: url("../images/background03.png");
 	background-repeat: repeat;	
 }
 
@@ -82,7 +82,7 @@ footer{
     color: #000;
     font-size: 16px;
     padding: 50px 30px 150px 30px;
-    margin-bottom: auto; /* makes the footer fill the bottom without extra spacing below the element */
+    
 }
 
 footer .navbar-default{
@@ -92,10 +92,15 @@ footer .navbar-default{
 
 
 footer .navbar .navbar-default .container{
-	height: 100%;
+	margin-bottom: auto; /* makes the footer fill the bottom without extra spacing below the element */
 }
 
-footer a{
+footer a {
+    color: #000;
+}
+
+footer a:hover{
 	color: #000;
+    text-decoration: underline;
 }
 
